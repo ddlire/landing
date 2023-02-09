@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  width: 100vw;
+  background-color: #2F4858;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer i {
+  color: #F4E225;
+  font-size: 30px;
+  padding: 20px;
+}
+
+h4 {
+  font-weight: light;
+  color: #94B54D;
+  padding: 20px;
+  text-align: center;
+  padding: 20px;
+}

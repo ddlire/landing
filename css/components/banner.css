@@ -1,0 +1,55 @@
+.banner{
+  background: url("../../images/foosball.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  width: 100vw;
+  height: 80vh;
+  object-fit: cover;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10vh;
+}
+
+.banner:before{
+  background: rgba(0, 0, 0, 0.8);
+  vertical-align: middle;
+}
+
+.banner h1,h2,.button {
+  position: relative;
+  left: 40vh;
+}
+
+.banner h1 {
+  color: #F4E225;
+  font-family: 'Caveat Brush', cursive;
+  letter-spacing: 3px;
+  font-size: 50px;
+  position: relative;
+  left: 40vh;
+  margin: 50px auto;
+}
+
+.banner h2 {
+  color: #94B54D;
+  font-family: 'Itim', cursive;
+  letter-spacing: 2px;
+  font-size: 30px;
+  position: relative;
+  margin: 50px auto;
+}
+
+.button {
+  background-color:#f4e325c2;
+  color: white;
+  padding: 20px;
+  border-radius: 30px;
+  transition: all 0.4 ease-out;
+  display: inline-block;
+  font-family: 'Itim', cursive;
+}
+
+.button:hover {
+  background-color:#94B54D;
+}

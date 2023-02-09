@@ -1,0 +1,40 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 100vw;
+  margin: 100px auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 40vh;
+  height: 60vh;
+  box-shadow: 4px 0px 10px rgba(0,0,0,0.5);
+  margin: 50px 50px;
+}
+
+.card img {
+  width: 180px;
+  height: 150px;
+  padding: 10px;
+  object-fit: cover;;
+}
+
+.card h3 {
+  font-family: 'Itim', cursive;
+  margin: 0 auto;
+  color: #2F4858;
+  font-size: 25px;
+}
+
+.card p {
+  font-family: 'Itim', cursive;
+  font-weight: light;
+  color: #4D4637;
+  padding: 20px;
+}
